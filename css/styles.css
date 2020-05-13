@@ -206,9 +206,28 @@ a {
   display: none;
 }
 @media screen and (min-width: 992px) {
+  .logo {
+    color: var(--clr-white);
+  }
   .navbar {
     padding: 1rem 2rem;
-    /* background-color: red; */
+    background-color: transparent;
+  }
+
+  .navbar.sticky {
+    background-color: var(--clr-white);
+  }
+
+  .navbar.sticky .nav-link {
+    color: var(--clr-black);
+  }
+
+  .navbar.sticky .nav-link.current {
+    color: var(--clr-red);
+  }
+
+  .navbar.sticky .logo {
+    color: var(--clr-black);
   }
   .menu-toggle {
     display: none;
@@ -237,6 +256,7 @@ a {
   .nav-link {
     padding: 0;
     margin-right: 3rem;
+    color: #fff;
   }
   #contact {
     margin-right: 0;
@@ -771,8 +791,9 @@ textarea {
 }
 
 @media screen and (min-width: 992px) {
-  .footer .logo {
+  .footer .logo-footer {
     font-size: 2.2rem;
+    color: var(--clr-black);
   }
   .social-icons a {
     width: 38px;
