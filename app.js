@@ -14,7 +14,7 @@ window.addEventListener('scroll', function () {
 const scrollLinks = document.querySelectorAll('.scroll-link');
 
 scrollLinks.forEach(function (link) {
-  link.addEventListener('click', function (e) {
+  link.addEventListener('click', function () {
     // e.preventDefault();
 
     navList.classList.toggle('active');
