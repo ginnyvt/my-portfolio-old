@@ -16,7 +16,10 @@ const scrollLinks = document.querySelectorAll('.scroll-link');
 scrollLinks.forEach(function (link) {
   link.addEventListener('click', function () {
     // e.preventDefault();
-
-    navList.classList.toggle('active');
+    // navList.classList.toggle('active');
+    // navList.style.height = 0;
+    if (window.innerWidth < 992) {
+      menuToggle.click();
+    }
   });
 });

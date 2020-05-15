@@ -339,6 +339,7 @@ a {
   margin-bottom: 1.8rem;
   color: var(--clr-lightGrey);
   font-size: 0.9rem;
+  line-height: 1.6;
 }
 
 .description-table {
@@ -358,6 +359,12 @@ a {
 .description-table span {
   color: var(--clr-lightGrey);
   font-weight: 400;
+}
+
+.description-table-right a,
+.description-table-left a {
+  color: var(--clr-red);
+  font-weight: 700;
 }
 
 @media screen and (min-width: 768px) {
@@ -750,7 +757,7 @@ textarea {
 
 .footer {
   text-align: center;
-  padding: 3rem 0;
+  padding: 1.5rem 0;
 }
 
 .social-icons {
