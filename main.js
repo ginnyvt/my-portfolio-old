@@ -35,3 +35,24 @@ const sectionObserverOne = new IntersectionObserver(
 	sectionOneOptions
 );
 sectionObserverOne.observe(hero);
+
+// Remove NavContainer when a link is clicked
+const links = document.querySelectorAll('.nav__link');
+links.forEach(function (link) {
+	link.addEventListener('click', (e) => {
+		e.preventDefault();
+		linksContainer.style.height = 0;
+		// smooth scrolling
+		const id = e.currentTarget.getAttribute('href').slice(1);
+		const element = document.getElementById(id);
+		// calculate the heights
+		const navHeight = navBar.getBoundingClientRect().height;
+		const containerHeight = linksContainer.getBoundingClientRect().height;
+		console.log(navHeight);
+		let position = element.offsetTop - navHeight;
+		window.scrollTo({
+			left: 0,
+			top: position,
+		});
+	});
+});
