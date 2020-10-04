@@ -198,17 +198,17 @@ a {
 	.menu-toggle {
 		display: none;
 	}
+
 	/* .navbar {
     padding: 1rem 2rem;
-    background-color: aquamarine;
-  } */
+	} */
+
 	.nav-center {
 		max-width: 1170px;
 		margin: 0 auto;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		/* background-color: blueviolet; */
 		padding: 1rem 2rem;
 	}
 
@@ -241,113 +241,6 @@ a {
 	}
 }
 
-/*
-.nav-list {
-	height: 0;
-	overflow: hidden;
-	transition: all 0.5s ease-in-out;
-}
-.nav-list.active {
-	height: 276px;
-}
-.nav-item {
-	border-bottom: 1px solid #f1f1f1;
-}
-
-.nav-item:first-child {
-	border-top: 1px solid #f1f1f1;
-}
-
-.nav-link {
-	display: block;
-	font-size: 0.95rem;
-	letter-spacing: 3px;
-	padding: 1rem 2rem;
-	font-weight: 700;
-	color: var(--clr-black);
-	transition: padding-left 0.5s ease-in-out;
-	cursor: pointer;
-}
-
-.nav-link:hover {
-	padding-left: 2.2rem;
-}
-
-.nav-link.current {
-	color: var(--clr-red);
-}
-.nav-btn {
-	display: none;
-}
-@media screen and (min-width: 992px) {
-	.logo {
-		color: var(--clr-white);
-	}
-	.navbar {
-		padding: 1rem 2rem;
-		background-color: transparent;
-	}
-
-	.navbar.sticky {
-		background-color: var(--clr-white);
-	}
-
-	.navbar.sticky .nav-link {
-		color: var(--clr-black);
-	}
-
-	.navbar.sticky .nav-link.current {
-		color: var(--clr-red);
-	}
-
-	.navbar.sticky .logo {
-		color: var(--clr-black);
-	}
-	.menu-toggle {
-		display: none;
-	}
-	.nav-center {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	}
-
-	.nav-header {
-		padding: 0;
-	}
-	.nav-list {
-		height: auto;
-		display: -webkit-box;
-		display: flex;
-	}
-	.nav-item {
-		border: none;
-	}
-
-	.nav-item:first-child {
-		border: none;
-	}
-	.nav-link {
-		padding: 0;
-		margin-right: 3rem;
-		color: #fff;
-	}
-	#contact {
-		margin-right: 0;
-	}
-	.nav-link:hover {
-		padding: 0;
-	}
-
-	.nav-btn {
-		display: inline-block;
-		background-color: transparent;
-		color: var(--clr-red);
-		border: 1px solid var(--clr-red);
-		margin-right: 0.7rem;
-		text-transform: capitalize;
-	}
-}*/
 /* HERO */
 .hero {
 	min-height: 100vh;
