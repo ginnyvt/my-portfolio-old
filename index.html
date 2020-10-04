@@ -1,24 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Wynny's | Home</title>
   <!-- CSS -->
   <link rel="stylesheet" href="css/styles.css" />
-
   <!-- FONT AWESOME -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
-
   <!-- GOOGLE FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900|Raleway:300,400,700,900&display=swap"
     rel="stylesheet" />
 </head>
 
 <body>
-  <header id="home">
-    <nav class="navbar">
+  <header>
+    <nav class="navbar fixed">
       <div class="nav-center">
         <div class="nav-header">
           <h1 class="logo">W<span>ynn</span></h1>
@@ -28,26 +25,26 @@
             <span class="hambuger"></span>
           </div>
         </div>
-
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a href="#home" class="nav-link current scroll-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#about" class="nav-link scroll-link">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="#skills" class="nav-link scroll-link">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a href="#timeline" class="nav-link scroll-link">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a href="#contact" class="nav-link scroll-link">Contact Me</a>
-          </li>
-        </ul>
-
-        <!-- <a href="#contact" class="btn nav-btn">Contact Me</a> -->
+        <!-- Nav links -->
+        <div class="links-container">
+          <ul class="nav__list">
+            <li class="nav__list-item">
+              <a href="#home" class="nav__link current scroll-link">Home</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#about" class="nav__link scroll-link">About</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#skills" class="nav__link scroll-link">Skills</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#timeline" class="nav__link scroll-link">Resume</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#contact" class="nav__link scroll-link">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
@@ -277,7 +274,7 @@
 
   </footer>
 
-  <script src="app.js">
+  <script src="main.js">
 
   </script>
 
